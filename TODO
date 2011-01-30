@@ -1,0 +1,8 @@
+- generic function to read a string table ["fsdfsd", "tgsdgsd"]
+- have to fix the print_path issue
+- generic function reading structure {tata=..., toto=..., ...}
+- error managing
+- be able to read more than 3 function args
+- to do option -v
+- script to get automaticaly syscalls of the used system
+- replace u_regs by the manual getting registers by ptrace (cf. ptrace(PTRACE_PEEKUSER, pid, EAX * 4, NULL))
